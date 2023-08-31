@@ -2,7 +2,7 @@
  font-family: 'Roboto', sans-serif;
 }
 
-.debug {
+[class^="col"] {
   background-color: rgba(243, 148, 103, 0.438);
   border: 1px solid black;
 }
@@ -11,11 +11,9 @@ header{
   height: 80px;
 }
 
-main {
-  height: calc(100vh - 80px);
-}
-
-aside {
+main,
+aside,
+.dashboard {
   height: calc(100vh - 80px);
 }
 
