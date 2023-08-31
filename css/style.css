@@ -16,8 +16,7 @@ main {
 }
 
 main,
-aside,
-.dashboard {
+aside{
   height: calc(100vh - 80px);
 }
 
@@ -33,9 +32,11 @@ aside i {
 .logo-mobile {
   width: 50px;
 }
-/* .menu li{
+
+header .menu li{
   list-style: none;
-} */
+  display: inline-block;
+}
 
 .piano-blaze {
   height: 80px;
