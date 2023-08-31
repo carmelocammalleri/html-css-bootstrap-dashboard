@@ -1,3 +1,12 @@
-main {
+* {
  font-family: 'Roboto', sans-serif;
+}
+
+.debug {
+  background-color: rgba(243, 148, 103, 0.438);
+  border: 1px solid black;
+}
+
+header{
+  height: 90px;
 }
