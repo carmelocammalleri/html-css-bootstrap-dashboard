@@ -14,7 +14,7 @@
 
   <!-- BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
   <!-- LINK-CSS -->
   <link rel="stylesheet" href="./css/style.css"> 
@@ -24,55 +24,59 @@
 
 <body>
   
-  <header class="fixed-top">
-    <div class="row h-100 d-flex align-items-center">
+  <header class="container-fluid fixed-top">
+    <nav class="h-100 d-flex align-items-center">
 
       <!-- LOGO -->
-      <div class="col-1 col-lg-2 logo">
+      <div class="logo">
         <img class="d-inline-block d-lg-none text-center logo-mobile" src="./img/mobile-logo.png" alt="logo-mobile">
         <img class="d-none d-lg-inline-block" src="./img/logo.svg" alt="logo">
       </div>
       <!-- /LOGO -->
 
       <!-- SEARCH -->
-      <div class="col-10 col-lg-8 search">
+      <div class="search">
         <form class="form-inline">
           <input class="form-control" type="search" placeholder="&#x1F50D Search" aria-label="Search"> 
         </form>
+      </div>
       <!-- /SEARCH -->
 
-      </div>
-      <div class="col-1 col-lg-2 menu">
-        <ul>
-          <li>
-            <a href="#">
+      <!-- MENU -->
+      <div class="menu">
+        <ul class="d-flex list-unstyled">
+          <li class="mx-1 d-none d-lg-block">
+            <a class=" list-icon" href="#">
               <i class="fa-solid fa-list-ul"></i>
             </a>
           </li>
-          <li>
-            <a href="#">
-              
+          <li class="mx-1 d-none d-lg-block">
+            <a class=" list-icon" href="#">
+              <i class="fa-solid fa-circle-question"></i>  
             </a>
-            <i class="fa-solid fa-circle-question"></i>
           </li>
-          <li>
-            <i class="fa-solid fa-ellipsis-vertical"></i>
+          <li class="mx-1 d-none d-lg-block">
+            <a class=" list-icon" href="#">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </a> 
           </li>
-          <li>
-            <i class="fa-solid fa-bell" style="color: #ff990a;"></i>
+          <li class="mx-1">
+            <a href="#">
+              <i class="fa-solid fa-bell" style="color: #ff990a;"></i>
+            </a>
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
+    <!-- MENU -->
   </header>
 
-  <main class="container-fluid">
-    
-    <div class="row">
+
+  <main class="container-fluid d-flex">
 
       <!-- ASIDE -->
-      <aside class="col-1 col-lg-2 d-flex flex-column justify-content-between text-lg-start">
-        <div class="">
+      <aside class="d-flex flex-column justify-content-between text-lg-start text-center text-lg-start ">
+        <div class="p-3">
           <ul class="menu text-capitalize list-unstyled">
             <li>
               <a class="text-decoration-none text-white" href="#">
@@ -107,7 +111,7 @@
       <!-- /ASIDE -->
       
       <!-- DASHBOARD -->
-      <div class="dashboard col-11 col-lg-10 overflow-auto">
+      <div class="container-fluid dashboard overflow-auto">
         
         <!-- BLAZE-SECTION -->
         <div class="row row-cols-1 row-cols-md-3 piano-blaze">
@@ -115,11 +119,9 @@
             <span>Nuovi studenti</span>
             <span>plus</span>
 
-
-
-
-
-
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              <i class="fa-solid fa-plus"></i>
+            </button>
 
           </div>
           <div class="col-md-5">Boolean</div>
@@ -158,7 +160,6 @@
         </div>
       
       </div>
-    </div>
     <!-- /DASHBOARD -->
     
   </main>

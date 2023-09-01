@@ -23,21 +23,53 @@ aside{
 aside {
   background-image: url(../img/sidebar-bg.png);
   background-color: #051E34;
+  width: 60px;
 }
 
 aside i {
   width: 30px;
 }
 
-.logo-mobile {
-  width: 50px;
+.dashboard {
+  width: 100%;
 }
 
-header .menu li{
-  list-style: none;
-  display: inline-block;
+.logo-mobile {
+  width: 60px;
+} 
+
+.search {
+  width: 100%;
+  margin-inline: 5px;
+}
+
+.menu ul{
+  width: 30px;
+} 
+
+ul {
+  margin: 0;
+}
+
+.list-icon{
+  color: #5B5858;
 }
 
 .piano-blaze {
   height: 80px;
+} 
+
+
+@media screen and (min-width:992px){
+  aside {
+    width: 140px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .menu ul{
+    width: 90px;
+  } 
 }
