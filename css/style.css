@@ -43,6 +43,14 @@ ul {
   color: #5B5858;
 }
 
+.dashboard {
+    height: calc(100vh - 80px);
+}
+
+.btn-list {
+ color: #5B5858;
+}
+
 .add-student {
   background-color: #1B72E8;
   padding:10px 0;
