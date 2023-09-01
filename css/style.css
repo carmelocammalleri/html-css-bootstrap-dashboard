@@ -73,6 +73,10 @@ ul {
   font-size: .8rem;
 }
 
+.quest {
+  font-size: .8rem;
+}
+
 @media screen and (min-width:992px){
   aside {
     width: 140px;
