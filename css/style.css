@@ -21,10 +21,6 @@ aside i {
   width: 30px;
 }
 
-.dashboard {
-  width: 100%;
-}
-
 .logo-mobile {
   width: 60px;
 } 
@@ -58,6 +54,7 @@ ul {
 .student-online {
   font-size: .8rem;
 }
+
 @media screen and (min-width:992px){
   aside {
     width: 140px;
