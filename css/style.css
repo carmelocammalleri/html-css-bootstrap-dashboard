@@ -48,12 +48,16 @@ ul {
 
 .add-student {
   background-color: #1B72E8;
+  padding:10px 0;
 }
 
 .badge-color {
   background-color: #165BBA;
 }
 
+.student-online {
+  font-size: .8rem;
+}
 @media screen and (min-width:992px){
   aside {
     width: 140px;
