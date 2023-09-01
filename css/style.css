@@ -10,14 +10,11 @@ main {
   padding-top: 80px;
 }
 
-aside{
-  height: calc(100vh - 80px);
-}
-
 aside {
   background-image: url(../img/sidebar-bg.png);
   background-color: #051E34;
   width: 60px;
+  height: calc(100vh - 80px);
 }
 
 aside i {
@@ -49,14 +46,13 @@ ul {
   color: #5B5858;
 }
 
-.piano-blaze {
-  height: 80px;
-} 
-
 .add-student {
   background-color: #1B72E8;
 }
 
+.badge-color {
+  background-color: #165BBA;
+}
 
 @media screen and (min-width:992px){
   aside {
