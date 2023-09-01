@@ -39,8 +39,16 @@ ul {
   margin: 0;
 }
 
+.table-class .fa-solid{
+  font-size: .7rem;
+}
+
 .list-icon{
   color: #5B5858;
+}
+
+.avatar-class {
+  width: 20px;
 }
 
 .dashboard {
@@ -49,6 +57,7 @@ ul {
 
 .btn-list {
  color: #5B5858;
+ padding: 1px 7px;
 }
 
 .add-student {
