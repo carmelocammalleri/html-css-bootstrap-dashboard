@@ -25,6 +25,10 @@ aside i {
   width: 60px;
 } 
 
+.ciao button :hover .fa-plus{
+  color: #165BBA;
+}
+
 .search {
   width: 100%;
   margin-inline: 5px;

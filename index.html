@@ -126,11 +126,11 @@
 
           
           <!-- OFFCANVAS -->
-          <div class="col-md-3 order-md-last my-3">
+          <div class="col-md-3 order-md-last my-3 ciao">
             <span>Nuovo Studente</span>
-            <a class="btn btn-outline-light border-white " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <button class="btn btn-outline-light border-white " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
               <i class="fa-solid fa-plus text-white"></i>
-            </a>
+            </button>
             
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
               <div class="offcanvas-header">
@@ -191,7 +191,37 @@
                 Prossime classi
               </div>
               <div class="card-body">
-                
+                <table class="table ">
+                  <thead>
+                    <tr>
+                      <th scope="col">Nome</th>
+                      <th scope="col">Data inizio</th>
+                      <th scope="col text-uppercase">roi</th>
+                      <th scope="col">Stato</th>
+                      <th scope="col">Azioni</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>    
               </div>
             </div>
             <!-- /TABLE-CLASS -->
