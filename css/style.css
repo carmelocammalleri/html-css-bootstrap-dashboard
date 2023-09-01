@@ -2,11 +2,6 @@
  font-family: 'Roboto', sans-serif;
 }
 
-[class^="col"] {
-  /* background-color: rgba(243, 148, 103, 0.438); */
-  border: 1px solid black;
-}
-
 header{
   height: 80px;
 }
@@ -15,7 +10,6 @@ main {
   padding-top: 80px;
 }
 
-main,
 aside{
   height: calc(100vh - 80px);
 }
@@ -58,6 +52,10 @@ ul {
 .piano-blaze {
   height: 80px;
 } 
+
+.add-student {
+  background-color: #1B72E8;
+}
 
 
 @media screen and (min-width:992px){
