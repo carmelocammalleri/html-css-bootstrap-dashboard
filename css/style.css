@@ -4,6 +4,7 @@
 
 header{
   height: 80px;
+  background-color: white;
 }
 
 main {
@@ -24,10 +25,6 @@ aside i {
 .logo-mobile {
   width: 60px;
 } 
-
-.ciao button :hover .fa-plus{
-  color: #165BBA;
-}
 
 .search {
   width: 100%;
