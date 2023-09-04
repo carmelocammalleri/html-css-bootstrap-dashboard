@@ -29,6 +29,8 @@ aside i {
 .search {
   width: 100%;
   margin-inline: 5px;
+  border: 1px solid gainsboro;
+  border-radius: 10px 10px;
 }
 
 .menu ul{
@@ -84,14 +86,26 @@ ul {
 }
 
 .bar-search {
-  border-left: none;
-  border-radius: 0 10px 10px 0;
+  border: none;
+}
+
+.bar-search:focus {
+  box-shadow: none;
+  border: none;
 }
 
 .search-magn {
-  border: 1px solid gainsboro;
-  border-right: none;
-  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+.search-magn:active {
+  border: none;
+}
+
+.search:active {
+  box-shadow: 5px 5px 5px #165aba50;
+  border: 1px solid #1B72E8;
+  border-radius: 10px;
 }
 
 .card-border {
