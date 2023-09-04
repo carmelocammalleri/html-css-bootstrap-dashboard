@@ -83,6 +83,21 @@ ul {
   padding-left: 15px ;
 }
 
+.bar-search {
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+}
+
+.search-magn {
+  border: 1px solid gainsboro;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+}
+
+.bar-search :active {
+  box-shadow: none;
+}
+
 .card-border {
   border: 1px solid rgba(128, 128, 128, 0.26);
   border-radius: 10px;
@@ -102,7 +117,11 @@ ul {
     width: 150px;
   }
 
-  .menu ul{
+  .menu ul {
     width: 90px;
   } 
+
+  .off-end {
+    width: 60% !important; 
+  }
 }
