@@ -94,6 +94,14 @@ ul {
   border: none;
 }
 
+.badge {
+  cursor: pointer;
+}
+
+.badge:hover {
+  background-color: rgba(0, 0, 0, 0.473);
+}
+
 .search-magn {
   border: none;
 }
